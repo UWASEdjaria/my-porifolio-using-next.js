@@ -17,7 +17,7 @@ export default function RootLayout({
       <body className="bg-black font-sans min-h-screen">
         <div 
           className="w-full min-h-screen bg-cover bg-center bg-no-repeat" 
-          style={{ backgroundImage: "url('/background-pic.jpg')" }}
+          style={{ backgroundImage: "url('/background pic.jpg')" }}
         >
           <header className="flex flex-row pt-3 py-1 px-4 sm:p-2 md:p-4 lg:p-6 border-2 border-transparent hover:border-purple-800 transition-all duration-300 hover:scale-105 justify-between w-full">
             <h1 className="text-3xl sm:text-2xl md:text-4xl lg:text-5xl shadow-lg font-bold text-purple-500 text-center">
