@@ -17,7 +17,7 @@ export default function AboutPage() {
         {/* Image on the left */}
         <div
           className="flex w-full md:w-1/2 h-64 md:h-96 bg-cover bg-center rounded-lg shadow-lg"
-          style={{ backgroundImage: "url('/background-pic.jpg')" }}
+          style={{ backgroundImage: "url('/about-pic.jpg')" }}
         ></div>
 
         {/* Text and Skills on the right */}
