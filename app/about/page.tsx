@@ -1,17 +1,11 @@
 import React from 'react';
-import Link from 'next/link';
 
 export default function Page() {
   return (
     <div className="bg-black font-sans p-5">
       <main className="max-w-7xl mx-auto">
         {/* Back Home */}
-        <Link
-          href="/"
-          className="text-white border-2 border-purple-800 rounded-lg p-2 hover:border-purple-500 font-bold italic inline-block"
-        >
-          <small>&larr; Back Home</small>
-        </Link>
+       
 
         {/* About Me Section */}
         <section className="mt-5 flex flex-col md:flex-row gap-10">
@@ -23,9 +17,12 @@ export default function Page() {
 
           {/* Text and Skills on the right */}
           <div className="flex-1 flex flex-col">
-            <h1 className="text-3xl sm:text-2xl md:text-4xl lg:text-5xl shadow-lg font-bold text-purple-500 text-center mb-5">
-              About me
-            </h1>
+           <h1 className="text-3xl sm:text-2xl md:text-4xl lg:text-5xl font-bold text-center mb-5
+               bg-linear-to-r from-pink-700 via-purple-600 to-purple-900
+               bg-clip-text text-transparent shadow-lg">
+               About me
+               </h1>
+
             <p className="text-white text-lg md:text-xl leading-relaxed">
               A frontend developer passionate about creating responsive and easy-to-use websites.
               Skilled in HTML, CSS, and JavaScript, and currently learning UI/UX design to combine

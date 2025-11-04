@@ -1,5 +1,5 @@
 import React from "react";
-import Link from "next/link";
+
 
 export default function Page() {
   return (
@@ -8,15 +8,9 @@ export default function Page() {
       style={{ backgroundImage: "url('/images/background pic.jpg')" }}
     >
       {/* Header */}
-      <header className="flex flex-row pt-3 py-1 px-4 sm:p-2 md:p-4 lg:p-6 border-2 border-transparent hover:border-purple-800 transition-all duration-300 hover:scale-105 justify-between w-full">
-        <h1 className="text-3xl sm:text-2xl md:text-4xl lg:text-5xl shadow-lg font-bold text-purple-500 text-center">
-          Djaria<span className="text-white">.is.</span>coding
-        </h1>
-        <nav className="flex shadow-lg space-x-4 items-center text-sm md:text-xl lg:text-2xl font-bold text-white px-4">
-          <Link href="/about" className="hover:text-purple-400 border">About Me</Link>
-          <Link href="/projects" className="hover:text-purple-400">Projects</Link>
-          <Link href="/contact" className="hover:text-purple-400">Contact</Link>
-        </nav>
+      <header className="flex flex-row pt-3 py-1 px-4 sm:p-2 md:p-4 lg:p-6 transition-all duration-300 hover:scale-105 justify-between w-full">
+        
+        
       </header>
 
       {/* Main Content */}
@@ -31,14 +25,14 @@ export default function Page() {
           <span className="space-x-4 p-4 text-center mx-auto">
             <a 
               href="mailto:uwasedjaria41@gmail.com" 
-              className="bg-purple-600 text-white px-6 py-3 rounded-full shadow hover:bg-purple-700 transition"
+              className=" bg-linear-to-r from-pink-800 via-purple-900 to-blue-900  text-white px-6 py-3 rounded-full shadow hover:bg-purple-700 transition"
             >
               Hire me
             </a>
             <a 
               href="/Uwase_Djaria_CV.pdf" 
               download
-              className="bg-purple-600 text-white px-6 py-3 rounded-full shadow hover:bg-purple-700 transition"
+              className=" bg-linear-to-r from-pink-800 via-purple-900 to-blue-900  text-white px-6 py-3 rounded-full shadow hover:bg-purple-700 transition"
             >
               Download CV
             </a>
@@ -54,7 +48,7 @@ export default function Page() {
               href="https://developer.mozilla.org/en-US/docs/Web/HTML" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="flex items-center justify-center w-full sm:w-1/3 border-2 p-4 border-purple-800 text-white text-sm sm:text-xl md:text-2xl lg:text-xl rounded-lg shadow-lg hover:bg-purple-700 transition-all duration-300 hover:scale-105"
+              className="flex items-center justify-center w-full sm:w-1/3 border-2 p-4 border-purple-800 text-white text-sm sm:text-xl md:text-2xl lg:text-xl rounded-full shadow-lg hover:bg-purple-700 transition-all duration-300 hover:scale-105"
             >
               HTML
             </a>
@@ -62,7 +56,7 @@ export default function Page() {
               href="https://tailwindcss.com/docs" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="flex items-center justify-center w-full sm:w-1/3 border-2 p-4 border-purple-800 text-white text-sm sm:text-xl md:text-2xl lg:text-xl rounded-lg shadow-lg hover:bg-purple-700 transition-all duration-300 hover:scale-105"
+              className="flex items-center justify-center w-full sm:w-1/3 border-2 p-4 border-purple-800 text-white text-sm sm:text-xl md:text-2xl lg:text-xl rounded-full shadow-lg hover:bg-purple-700 transition-all duration-300 hover:scale-105"
             >
               Tailwind CSS
             </a>
@@ -70,7 +64,7 @@ export default function Page() {
               href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="flex items-center justify-center w-full sm:w-1/3 border-2 p-4 border-purple-800 text-white text-sm sm:text-xl md:text-2xl lg:text-xl rounded-lg shadow-lg hover:bg-purple-700 transition-all duration-300 hover:scale-105"
+              className="flex items-center justify-center w-full sm:w-1/3 border-2 p-4 border-purple-800 text-white text-sm sm:text-xl md:text-2xl lg:text-xl rounded-full shadow-lg hover:bg-purple-700 transition-all duration-300 hover:scale-105"
             >
               JavaScript
             </a>
