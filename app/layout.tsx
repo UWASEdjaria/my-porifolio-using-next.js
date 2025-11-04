@@ -33,8 +33,8 @@ export default function RootLayout({ children }: RootLayoutProps) {
             <Link href="/about" className="hover:text-purple-400">
               About
             </Link>
-            <Link href="/projects" className="hover:text-purple-400">
-              Projects
+            <Link href="/project" className="hover:text-purple-400">
+              Project
             </Link>
             <Link href="/contact" className="hover:text-purple-400 transition">
               Contact

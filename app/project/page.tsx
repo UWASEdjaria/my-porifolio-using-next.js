@@ -1,51 +1,77 @@
-import Image from 'next/image';
+import Image from "next/image";
 
-// Project type
-interface Project {
-  title: string;
-  img: string;
-  url: string;
-}
-
-// Featured projects
-const projects: Project[] = [
-  { title: 'Movie Explorer', img: '/images/movieExplorer.png', url: 'https://movie-explorer-five-topaz.vercel.app/' },
-  { title: 'E-Commerce Homepage', img: '/images/e-commerce.png', url: 'https://static-e-commerce-homepage-two.vercel.app/' },
-  { title: 'Developer Dashboard', img: '/images/developerDashboard.png', url: 'https://github.com/UWASEdjaria/-Developer-Dashboard-' },
-  { title: 'To-Do List', img: '/images/todolist.png', url: 'https://to-do-list-by-react-theta.vercel.app/' },
-  { title: 'Task Management Board', img: '/images/taskManagement.png', url: 'https://github.com/UWASEdjaria/TASK-MANAGEMENT-BOARD' },
+const projectsData = [
+  {
+    title: "Movie Explorer",
+    image: "/images/movieExplorer.png",
+    description: "Explore movies with search, filters, and details using React.",
+    link: "https://movie-explorer-five-topaz.vercel.app/",
+  },
+  {
+    title: "E-Commerce Homepage",
+    image: "/images/e-commerce.png",
+    description: "A clean, responsive e-commerce homepage UI built with modern design.",
+    link: "https://static-e-commerce-homepage-two.vercel.app/",
+  },
+  {
+    title: "Freelancer Dashboard",
+    image: "/images/freelancerDashboard.png", // Make sure this image exists in /public/images
+    description: "A React TypeScript dashboard for freelancers to track projects, earnings, and tasks.",
+    link: "https://freelance-dashboard-react-type-script-oma4j7cim.vercel.app/",
+  },
+  {
+    title: "Developer Dashboard",
+    image: "/images/developerDashboard.png",
+    description: "A dashboard showing weather, GitHub stats, and other developer metrics.",
+    link: "https://github.com/UWASEdjaria/-Developer-Dashboard-",
+  },
+  {
+    title: "To-Do List App",
+    image: "/images/todolist(drag and drop).png",
+    description: "A React To-Do List app for managing tasks with drag-and-drop features.",
+    link: "https://to-do-list-by-react-theta.vercel.app/",
+  },
+  {
+    title: "Task Management Board",
+    image: "/images/taskManagement.png",
+    description: "A task management board for organizing projects and tasks efficiently.",
+    link: "https://github.com/UWASEdjaria/TASK-MANAGEMENT-BOARD",
+  },
 ];
 
-// Project Card
-function ProjectCard({ project }: { project: Project }) {
-  return (
-    <div className="bg-gray-900/80 rounded-xl overflow-hidden border border-gray-800 hover:border-purple-500/50 transition-all duration-300">
-      <div className="relative h-48 w-full">
-        <Image src={project.img} alt={project.title} fill className="object-cover" />
-      </div>
-      <div className="p-4">
-        <h3 className="text-white font-bold mb-1">{project.title}</h3>
-        <a
-          href={project.url}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-purple-500 hover:underline text-sm"
-        >
-          View Project
-        </a>
-      </div>
-    </div>
-  );
-}
-
-// Projects page
 export default function ProjectsPage() {
   return (
-    <div className="min-h-screen bg-black text-white py-12 px-4 max-w-6xl mx-auto">
-      <h1 className="text-4xl font-bold mb-8 text-center text-purple-500">My Projects</h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {projects.map((project, index) => (
-          <ProjectCard key={index} project={project} />
+    <div className="bg-black min-h-screen font-sans p-5">
+      <h1 className="text-4xl md:text-5xl font-bold text-center mb-10 
+                     bg-linear-to-r from-pink-400 via-purple-600 to-purple-900
+                     bg-clip-text text-transparent shadow-lg">
+        My Projects
+      </h1>
+
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 justify-center">
+        {projectsData.map((project, index) => (
+          <a
+            key={index}
+            href={project.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-black border-2 rounded-xl shadow-md p-5 flex flex-col items-center transition-transform duration-300 hover:scale-105"
+          >
+            <div className="w-60 h-40 mb-4 relative">
+              <Image
+                src={project.image}
+                alt={project.title}
+                fill
+                className="object-cover rounded-lg"
+              />
+            </div>
+            <h2 className="text-xl font-bold text-gray-800 mb-2 text-center
+                           bg-linear-to-r from-pink-700 via-purple-600 to-purple-900
+                           bg-clip-text text-transparent shadow-lg">
+              {project.title}
+            </h2>
+            <p className="text-gray-600 text-center">{project.description}</p>
+          </a>
         ))}
       </div>
     </div>

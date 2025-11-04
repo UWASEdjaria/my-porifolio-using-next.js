@@ -4,7 +4,7 @@ export default function Page() {
   return (
     <div className="bg-black font-sans p-5">
       <main className="max-w-7xl mx-auto">
-        {/* Back Home */}
+      
        
 
         {/* About Me Section */}
