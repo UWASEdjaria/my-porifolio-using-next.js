@@ -19,15 +19,17 @@ export default function RootLayout({ children }: RootLayoutProps) {
       <body className="bg-black text-white font-sans min-h-screen flex flex-col">
         {/* Navbar */}
         <header className="flex items-center justify-between px-6 py-4 border-b border-purple-700 transition-all duration-300 hover:scale-105">
-          {/* Title */}
-          <h1 className="text-3xl sm:text-2xl md:text-4xl lg:text-5xl shadow-lg font-bold text-purple-500 text-center
-          transition-all duration-300 hover:scale-105 p-3">
-          Djaria<span className="text-white">.is.</span>coding
-        </h1>
+          {/* Title with Gradient */}
+          <h1
+            className="text-3xl sm:text-2xl md:text-4xl lg:text-5xl font-bold text-center 
+                       bg-linear-to-r from-pink-600 via-purple-600 to-blue-600 
+                       bg-clip-text text-transparent shadow-lg transition-all duration-300 hover:scale-105 p-3"
+          >
+            Djaria<span className="text-white">.is.</span>coding
+          </h1>
 
           {/* Navigation */}
-          <nav className="flex  space-x-6 md:ml-8 text-lg font-semibold transition-all duration-300 hover:scale-105">
-            
+          <nav className="flex space-x-6 md:ml-8 text-lg font-semibold transition-all duration-300 hover:scale-105">
             <Link href="/" className="hover:text-purple-400">
               Home
             </Link>
