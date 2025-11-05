@@ -11,7 +11,7 @@ export default function Page() {
         <main className="max-w-7xl w-full text-center pt-10 flex flex-col items-center gap-10">
           {/* Title */}
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-5 
-                         bg-gradient-to-r from-pink-700 via-purple-600 to-purple-900 
+                         bg-linear-to-r from-pink-700 via-purple-600 to-purple-900 
                          bg-clip-text text-transparent shadow-lg">
             About Me
           </h1>
@@ -26,7 +26,7 @@ export default function Page() {
 
           {/* Skills */}
           <h2 className="text-4xl font-bold mt-8 mb-6 
-                         bg-gradient-to-r from-purple-600 to-pink-600 
+                         bg-linear-to-r from-purple-600 to-pink-600 
                          bg-clip-text text-transparent">
             Skills
           </h2>
@@ -36,7 +36,7 @@ export default function Page() {
               href="https://developer.mozilla.org/en-US/docs/Web/HTML"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-gradient-to-r from-purple-600 to-pink-600 text-white px-6 py-3 rounded-full shadow-md hover:scale-105 transition-transform duration-300"
+              className="bg-linear-to-r from-purple-600 to-pink-600 text-white px-6 py-3 rounded-full shadow-md hover:scale-105 transition-transform duration-300"
             >
               HTML
             </a>
@@ -45,7 +45,7 @@ export default function Page() {
               href="https://developer.mozilla.org/en-US/docs/Web/CSS"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-gradient-to-r from-purple-600 to-pink-600 text-white px-6 py-3 rounded-full shadow-md hover:scale-105 transition-transform duration-300"
+              className="bg-linear-to-r from-purple-600 to-pink-600 text-white px-6 py-3 rounded-full shadow-md hover:scale-105 transition-transform duration-300"
             >
               CSS
             </a>

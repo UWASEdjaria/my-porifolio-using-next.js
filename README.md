@@ -1,36 +1,89 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Uwase Djaria - Frontend Developer & UI/UX Designer
 
-## Getting Started
+Welcome to my Next.js portfolio! I’m Uwase Djaria, a frontend developer and UI/UX designer passionate about creating responsive, modern, and user-friendly web experiences.
 
-First, run the development server:
+# 🌟 About Me
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This corresponds to the about.jsx page in the project.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+I enjoy combining clean code with elegant design. My goal is to deliver simple, creative, and meaningful digital experiences.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Frontend Skills: HTML, CSS, Tailwind CSS, JavaScript, React, Next.js
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Design Skills: UI/UX Design, Responsive Design, Modern Web Layouts
 
-## Learn More
+Tools & Technologies: VS Code, GitHub, Figma, Chrome DevTools
 
-To learn more about Next.js, take a look at the following resources:
+About Page Features:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Full-screen background image with dark overlay.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Centralized title and description with gradient text.
 
-## Deploy on Vercel
+Interactive Skill buttons with gradient hover effects.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Responsive layout for desktop and mobile.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# 📂 Folder Structure
+next-portfolio/
+├── public/
+│   ├── images/
+│   │   ├── about-pic.jpg
+│   │   ├── jaja.jpg
+│   │   ├── movieExplorer.png
+│   │   ├── e-commerce.png
+│   │   ├── freelancerDashboard.png
+│   │   ├── developerDashboard.png
+│   │   ├── todolist(drag and drop).png
+│   │   └── taskManagement.png
+│   └── Uwase_Djaria_CV.pdf
+├── src/
+│   ├── pages/
+│   │   ├── index.jsx       # Home page
+│   │   ├── about.jsx       # About page
+│   │   ├── projects.jsx    # Projects page
+│   │   └── contact.jsx     # Contact page
+│   ├── components/
+│   │   └── SkillButton.jsx # Skills button used in About page
+│   └── styles/
+│       └── globals.css     # Main CSS file (Tailwind imported here)
+├── .gitignore
+├── package.json
+└── next.config.js
+
+# 💻 Projects
+
+Here are some of my featured projects. Click the links to explore them live or view the code:
+
+Project	Description	Link
+Movie Explorer	Explore movies with search, filters, and details using React.	Live Demo
+
+E-Commerce Homepage	A clean, responsive e-commerce homepage UI built with modern design.	Live Demo
+
+Freelancer Dashboard	A React TypeScript dashboard for freelancers to track projects, earnings, and tasks.	Live Demo
+
+Developer Dashboard	Dashboard showing weather, GitHub stats, and developer metrics.	GitHub Repo
+
+To-Do List App	Manage tasks with a React To-Do List app featuring drag-and-drop functionality.	Live Demo
+
+Task Management Board	Organize projects and tasks efficiently with this task management board.	GitHub Repo
+
+# 📧 Contact Me
+
+I’m always open to freelance opportunities, collaborations, or full-time roles.
+
+Email: uwasedjaria41@gmail.com
+
+Download CV: Uwase Djaria CV
+
+Feel free to reach out — I’d love to connect!
+
+# 🖋 Author
+
+Uwase Djaria
+
+Frontend Developer & UI/UX Designer
+
+LinkedIn
+
+GitHub
