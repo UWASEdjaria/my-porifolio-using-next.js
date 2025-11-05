@@ -55,7 +55,7 @@ export default function ProjectsPage() {
             href={project.link}
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-black border-2 rounded-xl shadow-md p-5 flex flex-col items-center transition-transform duration-300 hover:scale-105"
+            className="bg-black border border-purple-500 rounded-xl shadow-md p-5 flex flex-col items-center transition-transform duration-300 hover:scale-105"
           >
             <div className="w-60 h-40 mb-4 relative">
               <Image
@@ -65,7 +65,7 @@ export default function ProjectsPage() {
                 className="object-cover rounded-lg"
               />
             </div>
-            <h2 className="text-xl font-bold text-gray-800 mb-2 text-center
+            <h2 className="text-xl font-bold  mb-2 text-center
                            bg-linear-to-r from-pink-700 via-purple-600 to-purple-900
                            bg-clip-text text-transparent shadow-lg">
               {project.title}
