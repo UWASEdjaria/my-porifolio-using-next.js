@@ -30,7 +30,7 @@ export default function Page() {
               Hire me
             </a>
             <a 
-              href="/Uwase_Djaria_CV.pdf" 
+              href="/DJARIA UWASE frontend cv.pdf" 
               download
               className=" bg-linear-to-r from-pink-800 via-purple-900 to-blue-900  text-white px-6 py-3 rounded-full shadow hover:bg-purple-700 transition"
             >
