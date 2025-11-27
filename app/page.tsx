@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 
@@ -32,17 +33,16 @@ export default function Page() {
             <a 
               href="/DJARIA UWASE frontend cv.pdf" 
               download
-              className="bg-gradient-to-r from-pink-800 via-purple-900 to-blue-900 text-white px-6 py-3 rounded-full shadow hover:bg-purple-700 transition text-center"
+              className="bg-linear-to-r from-pink-800 via-purple-900 to-blue-900 text-white px-6 py-3 rounded-full shadow hover:bg-purple-700 transition text-center"
             >
               Download CV
             </a>
           </div>
-
-          <h2 className="text-2xl font-bold rounded-lg sm:text-3xl md:text-4xl lg:text-5xl text-center p-6 sm:p-2 md:p-4 lg:p-6 text-white">
-            Technical Skills
-          </h2>
-
-         
+          <div className="flex justify-center"></div>
+  <div className="flex flex-wrap gap-3 sm:gap-4 justify-center text-white font-bold italic p-2">
+    <p className="text-2xl relaxed-leading md:text-gray-400 text-white pl-2 italic">I create beautiful, user-friendly websites that combine design and code. Feel free to reach out and connect!</p>
+    <Link href="/project" className="border-2 border-purple-700 px-4 py-2 rounded-full text-white">Explore for more</Link>
+         </div>
         </div>
       </div>
     </div>

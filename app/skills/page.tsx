@@ -67,6 +67,9 @@ function Skills() {
     >
       Next.js
     </a>
+    
+    <span className="border-2 border-purple-700 px-4 py-2 rounded-full text-white">Firebase</span>
+    <span className="border-2 border-purple-700 px-4 py-2 rounded-full text-white">PostgreSQL</span>
 
   </div>
 </div>

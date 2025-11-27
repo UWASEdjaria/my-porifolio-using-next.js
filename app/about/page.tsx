@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 export default function AboutPage() {
@@ -28,18 +29,12 @@ export default function AboutPage() {
           </p>
 
           {/* Skills */}
-          <h2 className="text-2xl font-bold mt-8 mb-4 text-white">
-            Skills
+          <h2 className="text-2xl font-bold mt-8 mb-4 text-purple">
+            view my skills  
           </h2>
           <div className="flex flex-wrap justify-center gap-3">
-            <span className="border-2 border-purple-700 px-4 py-2 rounded-full text-white">HTML</span>
-            <span className="border-2 border-purple-700 px-4 py-2 rounded-full text-white">CSS</span>
-            <span className="border-2 border-purple-700 px-4 py-2 rounded-full text-white">Tailwind CSS</span>
-            <span className="border-2 border-purple-700 px-4 py-2 rounded-full text-white">JavaScript</span>
-            <span className="border-2 border-purple-700 px-4 py-2 rounded-full text-white">React</span>
-            <span className="border-2 border-purple-700 px-4 py-2 rounded-full text-white">Next.js</span>
-            <span className="border-2 border-purple-700 px-4 py-2 rounded-full text-white">Firebase</span>
-            <span className="border-2 border-purple-700 px-4 py-2 rounded-full text-white">PostgreSQL</span>
+            <Link href="/skills" className="border-2 border-purple-700 px-4 py-2 rounded text-white">view my skills →</Link>
+  
           </div>
 
           {/* Experience */}
