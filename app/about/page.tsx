@@ -30,10 +30,10 @@ export default function AboutPage() {
 
           {/* Skills */}
           <h2 className="text-2xl font-bold mt-8 mb-4 text-purple">
-            view my skills  
+            view my skills →  
           </h2>
           <div className="flex flex-wrap justify-center gap-3">
-            <Link href="/skills" className="border-2 border-purple-700 px-4 py-2 rounded text-white">view my skills →</Link>
+            <Link href="/skills" className="bg-purple-700 px-4 py-2 rounded text-white">view my skills →</Link>
   
           </div>
 
