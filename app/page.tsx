@@ -42,33 +42,7 @@ export default function Page() {
             Technical Skills
           </h2>
 
-          {/* Skills */}
-          <div className="flex flex-wrap gap-4 justify-center text-white italic font-bold p-2">
-            <a 
-              href="https://developer.mozilla.org/en-US/docs/Web/HTML" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="flex items-center justify-center w-full sm:w-1/3 border-2 p-4 border-purple-800 text-white text-sm sm:text-xl md:text-2xl lg:text-xl rounded-full shadow-lg hover:bg-purple-700 transition-all duration-300 hover:scale-105"
-            >
-              HTML
-            </a>
-            <a 
-              href="https://tailwindcss.com/docs" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="flex items-center justify-center w-full sm:w-1/3 border-2 p-4 border-purple-800 text-white text-sm sm:text-xl md:text-2xl lg:text-xl rounded-full shadow-lg hover:bg-purple-700 transition-all duration-300 hover:scale-105"
-            >
-              Tailwind CSS
-            </a>
-            <a 
-              href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="flex items-center justify-center w-full sm:w-1/3 border-2 p-4 border-purple-800 text-white text-sm sm:text-xl md:text-2xl lg:text-xl rounded-full shadow-lg hover:bg-purple-700 transition-all duration-300 hover:scale-105"
-            >
-              JavaScript
-            </a>
-          </div>
+         
         </div>
       </div>
     </div>

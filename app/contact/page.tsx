@@ -8,7 +8,7 @@ export default function ContactPage() {
       {/* About Me Section */}
       <div className="text-center mb-8 max-w-2xl">
         <h1 className="text-4xl font-bold mb-4 italic
-                       bg-gradient-to-r from-pink-600 via-purple-600 to-blue-600
+                       bg-linear-to-r from-pink-600 via-purple-600 to-blue-600
                        bg-clip-text text-transparent">
           Glad You’re Here!
         </h1>
@@ -51,7 +51,7 @@ export default function ContactPage() {
         </a>
 
         <a
-          href="https://wa.me/250XXXXXXXXX" // replace XXXXXXXXX with your actual WhatsApp number
+          href="https://wa.me/250789601944" 
           target="_blank"
           rel="noopener noreferrer"
           title="WhatsApp"
