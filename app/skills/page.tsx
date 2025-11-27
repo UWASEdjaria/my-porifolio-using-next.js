@@ -20,20 +20,14 @@ function Skills() {
   by step.
 </p>
 
-  <div className="flex flex-wrap gap-4 justify-center text-white font-bold italic p-2">
+  <div className="flex flex-wrap gap-3 sm:gap-4 justify-center text-white font-bold italic p-2">
 
     {/* Skill Item */}
     <a
       href="https://developer.mozilla.org/en-US/docs/Web/HTML"
       target="_blank"
       rel="noopener noreferrer"
-      className="flex items-center justify-center 
-                 w-full sm:w-1/3 md:w-1/4 
-                 border-2 p-4 border-purple-800 
-                 text-sm sm:text-xl 
-                 rounded-full shadow-lg 
-                 hover:bg-purple-700 hover:scale-105 
-                 transition-all duration-300"
+      className="border-2 px-4 sm:px-6 py-2 sm:py-3 border-purple-800 text-sm sm:text-lg rounded-full shadow-lg hover:bg-purple-700 hover:scale-105 transition-all duration-300"
     >
       HTML
     </a>
@@ -42,13 +36,7 @@ function Skills() {
       href="https://tailwindcss.com/docs"
       target="_blank"
       rel="noopener noreferrer"
-      className="flex items-center justify-center 
-                 w-full sm:w-1/3 md:w-1/4 
-                 border-2 p-4 border-purple-800 
-                 text-sm sm:text-xl 
-                 rounded-full shadow-lg 
-                 hover:bg-purple-700 hover:scale-105 
-                 transition-all duration-300"
+      className="border-2 px-4 sm:px-6 py-2 sm:py-3 border-purple-800 text-sm sm:text-lg rounded-full shadow-lg hover:bg-purple-700 hover:scale-105 transition-all duration-300"
     >
       Tailwind CSS
     </a>
@@ -57,13 +45,7 @@ function Skills() {
       href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
       target="_blank"
       rel="noopener noreferrer"
-      className="flex items-center justify-center 
-                 w-full sm:w-1/3 md:w-1/4 
-                 border-2 p-4 border-purple-800 
-                 text-sm sm:text-xl 
-                 rounded-full shadow-lg 
-                 hover:bg-purple-700 hover:scale-105 
-                 transition-all duration-300"
+      className="border-2 px-4 sm:px-6 py-2 sm:py-3 border-purple-800 text-sm sm:text-lg rounded-full shadow-lg hover:bg-purple-700 hover:scale-105 transition-all duration-300"
     >
       JavaScript
     </a>
@@ -72,13 +54,7 @@ function Skills() {
       href="https://react.dev/"
       target="_blank"
       rel="noopener noreferrer"
-      className="flex items-center justify-center 
-                 w-full sm:w-1/3 md:w-1/4 
-                 border-2 p-4 border-purple-800 
-                 text-sm sm:text-xl 
-                 rounded-full shadow-lg 
-                 hover:bg-purple-700 hover:scale-105 
-                 transition-all duration-300"
+      className="border-2 px-4 sm:px-6 py-2 sm:py-3 border-purple-800 text-sm sm:text-lg rounded-full shadow-lg hover:bg-purple-700 hover:scale-105 transition-all duration-300"
     >
       React
     </a>
@@ -87,13 +63,7 @@ function Skills() {
       href="https://nextjs.org/"
       target="_blank"
       rel="noopener noreferrer"
-      className="flex items-center justify-center 
-                 w-full sm:w-1/3 md:w-1/4 
-                 border-2 p-4 border-purple-800 
-                 text-sm sm:text-xl 
-                 rounded-full shadow-lg 
-                 hover:bg-purple-700 hover:scale-105 
-                 transition-all duration-300"
+      className="border-2 px-4 sm:px-6 py-2 sm:py-3 border-purple-800 text-sm sm:text-lg rounded-full shadow-lg hover:bg-purple-700 hover:scale-105 transition-all duration-300"
     >
       Next.js
     </a>

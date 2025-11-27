@@ -48,16 +48,16 @@ export default function ProjectsPage() {
         My Projects
       </h1>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 justify-center">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4 max-w-7xl mx-auto">
         {projectsData.map((project, index) => (
           <a
             key={index}
             href={project.link}
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-black border border-purple-500 rounded-xl shadow-md p-5 flex flex-col items-center transition-transform duration-300 hover:scale-105"
+            className="bg-black border border-purple-500 rounded-xl shadow-md p-5 flex flex-col transition-transform duration-300 hover:scale-105"
           >
-            <div className="w-60 h-40 mb-4 relative">
+            <div className="w-full h-48 sm:h-40 mb-4 relative">
               <Image
                 src={project.image}
                 alt={project.title}
