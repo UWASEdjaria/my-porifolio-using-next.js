@@ -3,7 +3,11 @@ import { FaGithub, FaLinkedin, FaFacebook, FaWhatsapp } from "react-icons/fa";
 
 export default function ContactPage() {
   return (
-    <div className="bg-black flex flex-col items-center justify-center min-h-screen font-sans p-5">
+    <div className="bg-black min-h-screen font-sans p-5">
+      <div className="flex flex-col lg:flex-row items-start justify-center min-h-screen gap-10 max-w-6xl mx-auto pt-10">
+        
+        {/* Left side - Text content */}
+        <div className="w-full lg:w-1/2 flex flex-col justify-center">
       
       {/* About Me Section */}
       <div className="text-center mb-8 max-w-2xl">
@@ -12,10 +16,28 @@ export default function ContactPage() {
                        bg-clip-text text-transparent">
           Glad You’re Here!
         </h1>
-        <p className="text-white italic text-lg md:text-xl">
+        <p className="text-gray-400 italic text-lg md:text-xl mb-6">
           I build modern, responsive websites and love creating clean user experiences. 
           Feel free to contact me through any of the platforms below!
         </p>
+        
+        <div className="text-center mb-6">
+          <h2 className="text-2xl font-bold mb-4 text-white">Let's Work Together</h2>
+          <p className="text-gray-400 max-w-xl mx-auto">
+            I'm always excited to collaborate on new projects and bring creative ideas to life. 
+            Whether you need a website, want to discuss a project, or just want to connect, 
+            I'd love to hear from you!
+          </p>
+        </div>
+        
+        <div className="text-center mb-8">
+          <p className="text-gray-400">
+            <span className="text-purple-400 font-semibold">Email:</span> uwasedjaria41@gmail.com
+          </p>
+          <p className="text-gray-400 mt-2">
+            <span className="text-purple-400 font-semibold">Location:</span> Kigali, Rwanda
+          </p>
+        </div>
       </div>
 
       {/* Social Media Icons */}
@@ -61,8 +83,11 @@ export default function ContactPage() {
         </a>
       </div>
 
-      {/* Contact Form */}
-      <form className="bg-gray-800 p-6 rounded-lg shadow-md w-full max-w-sm">
+        </div>
+        
+        {/* Right side - Contact Form */}
+        <div className="w-full lg:w-1/2 flex justify-center">
+          <form className="bg-gray-800 p-6 rounded-lg shadow-md w-full max-w-sm">
         <h2 className="text-purple-600 text-2xl font-bold mb-6 text-center">
           Send me a message
         </h2>
@@ -94,7 +119,9 @@ export default function ContactPage() {
         >
           Send
         </button>
-      </form>
+          </form>
+        </div>
+      </div>
     </div>
   );
 }

@@ -38,8 +38,21 @@ export default function Page() {
               Download CV
             </a>
           </div>
-          <div className="flex justify-center">
-            <p className="text-2xl text-center text-white italic">I create beautiful, user-friendly websites that combine design and code. Feel free to reach out and connect!</p>
+          <div className="flex flex-col items-center gap-6">
+            <p className="text-xl text-center text-gray-400 italic max-w-2xl leading-relaxed">
+              I create beautiful, user-friendly websites that combine design and code. 
+              Passionate about turning ideas into digital experiences that users love.
+            </p>
+            
+            <p className="text-xl text-center text-gray-400 max-w-2xl leading-relaxed">
+              From responsive layouts to interactive features, I build modern web applications 
+              using React, Next.js, and Tailwind CSS. Always eager to learn and grow in this 
+              exciting field of web development.
+            </p>
+            
+            <p className="text-xl text-center text-gray-400 max-w-2xl leading-relaxed">
+              Let's collaborate and bring your vision to life. Feel free to reach out and connect!
+            </p>
           </div>
         </div>
       </div>

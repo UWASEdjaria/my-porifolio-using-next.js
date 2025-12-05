@@ -3,6 +3,7 @@
 import './globals.css';
 import React, { ReactNode, useState } from 'react';
 import Link from 'next/link';
+import { FaGithub, FaLinkedin, FaFacebook, FaWhatsapp } from 'react-icons/fa';
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   const [menuOpen, setMenuOpen] = useState(false);

@@ -1,69 +1,69 @@
 
 import React from 'react'
 
+const skillsData = [
+  {
+    title: "HTML",
+    description: "I create semantic and well-structured web pages using HTML5. I understand proper markup and accessibility standards for modern web development."
+  },
+  {
+    title: "CSS", 
+    description: "I style websites with modern CSS techniques including flexbox and grid layouts. I focus on creating responsive designs that work across all devices."
+  },
+  {
+    title: "Tailwind CSS",
+    description: "I use Tailwind CSS for rapid UI development with utility-first classes. This helps me build consistent and maintainable user interfaces quickly."
+  },
+  {
+    title: "JavaScript",
+    description: "I write JavaScript to add interactivity and dynamic functionality to web applications. I work with DOM manipulation, events, and modern ES6+ features."
+  },
+  {
+    title: "React",
+    description: "I build user interfaces using React components and hooks. I create reusable components and manage application state effectively."
+  },
+  {
+    title: "Next.js",
+    description: "I develop React applications using Next.js for better performance and SEO. I work with routing, server-side rendering, and static site generation."
+  },
+  {
+    title: "Firebase",
+    description: "I implement user authentication and real-time features using Firebase. I can set up login systems and manage user data securely."
+  },
+  {
+    title: "PostgreSQL",
+    description: "I have basic knowledge of PostgreSQL for simple database operations. I'm learning how databases work and store information."
+  },
+  {
+    title: "Figma",
+    description: "I use Figma for basic UI design and creating simple layouts. I'm learning to design user interfaces and improve my design skills."
+  }
+];
+
 function Skills() {
   return (
-    <div>
-        
-{/* Skills Section */}
-<div className="py-10">
-  <h2 className="text-center text-3xl sm:text-4xl md:text-5xl font-bold mb-6
-             bg-gradient-to-r from-pink-700 via-purple-600 to-purple-900
-             bg-clip-text text-transparent shadow-lg">
-    Skills
-  </h2>
-<p className="text-center max-w-2xl mx-auto text-sm sm:text-lg md:text-xl 
-             italic text-gray-300 leading-relaxed p-4">
-  I have skills in building websites using HTML, CSS, Tailwind, JavaScript, React, 
-  and Next.js. I also have basic backend knowledge using Firebase and PostgreSQL, 
-  and I can create simple authentication features and work with databases. I can 
-  make clean pages, responsive designs, and simple user interfaces. I am still 
-  learning every day, and I enjoy improving my frontend and backend skills step 
-  by step.
-</p>
+    <div className="bg-black min-h-screen font-sans p-5">
+      <h1 className="text-4xl md:text-5xl font-bold text-center mb-10 
+                     bg-gradient-to-r from-pink-400 via-purple-600 to-purple-900
+                     bg-clip-text text-transparent shadow-lg">
+        My Skills
+      </h1>
 
-  <div className="flex flex-wrap gap-3 sm:gap-4 justify-center text-white font-bold italic p-2">
-
-    {/* Skill Item */}
-    <button
-      className="border-2 px-4 sm:px-6 py-2 sm:py-3 border-purple-800 text-sm sm:text-lg rounded-full shadow-lg hover:bg-purple-700 hover:scale-105 transition-all duration-300"
-    >
-      HTML
-    </button>
-
-    <button
-      className="border-2 px-4 sm:px-6 py-2 sm:py-3 border-purple-800 text-sm sm:text-lg rounded-full shadow-lg hover:bg-purple-700 hover:scale-105 transition-all duration-300"
-    >
-      Tailwind CSS
-    </button>
-
-    <button
-      className="border-2 px-4 sm:px-6 py-2 sm:py-3 border-purple-800 text-sm sm:text-lg rounded-full shadow-lg hover:bg-purple-700 hover:scale-105 transition-all duration-300"
-    >
-      JavaScript
-    </button>
-
-    <button
-      className="border-2 px-4 sm:px-6 py-2 sm:py-3 border-purple-800 text-sm sm:text-lg rounded-full shadow-lg hover:bg-purple-700 hover:scale-105 transition-all duration-300"
-    >
-      React
-    </button>
-
-    <button
-      className="border-2 px-4 sm:px-6 py-2 sm:py-3 border-purple-800 text-sm sm:text-lg rounded-full shadow-lg hover:bg-purple-700 hover:scale-105 transition-all duration-300"
-    >
-      Next.js
-    </button>
-    
-    <button className="border-2 border-purple-700 px-4 py-2 rounded-full text-white hover:bg-purple-700 hover:scale-105 transition-all duration-300"
-    >Firebase
-    </button>
-    
-    <button className="border-2 border-purple-700 px-4 py-2 rounded-full text-white hover:bg-purple-700 hover:scale-105 transition-all duration-300">PostgreSQL</button>
-
-  </div>
-</div>
-
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4 max-w-7xl mx-auto">
+        {skillsData.map((skill, index) => (
+          <div
+            key={index}
+            className="bg-black border border-purple-500 rounded-xl shadow-md p-5 flex flex-col transition-transform duration-300 hover:scale-105"
+          >
+            <h2 className="text-xl font-bold mb-2 text-center
+                           bg-gradient-to-r from-pink-700 via-purple-600 to-purple-900
+                           bg-clip-text text-transparent shadow-lg">
+              {skill.title}
+            </h2>
+            <p className="text-gray-400 text-center">{skill.description}</p>
+          </div>
+        ))}
+      </div>
     </div>
   )
 }
