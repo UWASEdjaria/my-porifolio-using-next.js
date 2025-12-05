@@ -23,53 +23,41 @@ function Skills() {
   <div className="flex flex-wrap gap-3 sm:gap-4 justify-center text-white font-bold italic p-2">
 
     {/* Skill Item */}
-    <a
-      href="https://developer.mozilla.org/en-US/docs/Web/HTML"
-      target="_blank"
-      rel="noopener noreferrer"
+    <button
       className="border-2 px-4 sm:px-6 py-2 sm:py-3 border-purple-800 text-sm sm:text-lg rounded-full shadow-lg hover:bg-purple-700 hover:scale-105 transition-all duration-300"
     >
       HTML
-    </a>
+    </button>
 
-    <a
-      href="https://tailwindcss.com/docs"
-      target="_blank"
-      rel="noopener noreferrer"
+    <button
       className="border-2 px-4 sm:px-6 py-2 sm:py-3 border-purple-800 text-sm sm:text-lg rounded-full shadow-lg hover:bg-purple-700 hover:scale-105 transition-all duration-300"
     >
       Tailwind CSS
-    </a>
+    </button>
 
-    <a
-      href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
-      target="_blank"
-      rel="noopener noreferrer"
+    <button
       className="border-2 px-4 sm:px-6 py-2 sm:py-3 border-purple-800 text-sm sm:text-lg rounded-full shadow-lg hover:bg-purple-700 hover:scale-105 transition-all duration-300"
     >
       JavaScript
-    </a>
+    </button>
 
-    <a
-      href="https://react.dev/"
-      target="_blank"
-      rel="noopener noreferrer"
+    <button
       className="border-2 px-4 sm:px-6 py-2 sm:py-3 border-purple-800 text-sm sm:text-lg rounded-full shadow-lg hover:bg-purple-700 hover:scale-105 transition-all duration-300"
     >
       React
-    </a>
+    </button>
 
-    <a
-      href="https://nextjs.org/"
-      target="_blank"
-      rel="noopener noreferrer"
+    <button
       className="border-2 px-4 sm:px-6 py-2 sm:py-3 border-purple-800 text-sm sm:text-lg rounded-full shadow-lg hover:bg-purple-700 hover:scale-105 transition-all duration-300"
     >
       Next.js
-    </a>
+    </button>
     
-    <span className="border-2 border-purple-700 px-4 py-2 rounded-full text-white">Firebase</span>
-    <span className="border-2 border-purple-700 px-4 py-2 rounded-full text-white">PostgreSQL</span>
+    <button className="border-2 border-purple-700 px-4 py-2 rounded-full text-white hover:bg-purple-700 hover:scale-105 transition-all duration-300"
+    >Firebase
+    </button>
+    
+    <button className="border-2 border-purple-700 px-4 py-2 rounded-full text-white hover:bg-purple-700 hover:scale-105 transition-all duration-300">PostgreSQL</button>
 
   </div>
 </div>
