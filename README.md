@@ -4,31 +4,46 @@ Welcome to my Next.js portfolio! I’m Uwase Djaria, a frontend developer and UI
 
 # 🌟 About Me
 
-This corresponds to the about.jsx page in the project.
+This corresponds to the about page in the project.
 
 I enjoy combining clean code with elegant design. My goal is to deliver simple, creative, and meaningful digital experiences.
 
-Frontend Skills: HTML, CSS, Tailwind CSS, JavaScript, React, Next.js
+**Frontend Skills:** HTML, CSS, Tailwind CSS, JavaScript, React, Next.js 14, TypeScript
 
-Design Skills: UI/UX Design, Responsive Design, Modern Web Layouts
+**Backend Skills:** Firebase, PostgreSQL (Basic)
 
-Tools & Technologies: VS Code, GitHub, Figma, Chrome DevTools
+**Design Skills:** UI/UX Design, Responsive Design, Modern Web Layouts
 
-About Page Features:
+**Tools & Technologies:** VS Code, GitHub, Figma, Chrome DevTools, PostCSS
 
-Full-screen background image with dark overlay.
+## ✨ Features:
 
-Centralized title and description with gradient text.
-
-Interactive Skill buttons with gradient hover effects.
-
-Responsive layout for desktop and mobile.
+- **Modern Next.js 14 App Router** with TypeScript
+- **Responsive Design** - Mobile-first approach with Tailwind CSS
+- **Interactive Navigation** - Hamburger menu for mobile devices
+- **Gradient Text Effects** - Beautiful gradient titles across pages
+- **Project Showcase** - Live demos and GitHub repositories
+- **Contact Integration** - Social media links and contact form
+- **Skills Display** - Interactive skill buttons with hover effects
+- **Professional Layout** - Clean, modern design with consistent theming
 
 # 📂 Folder Structure
-next-portfolio/
+nextportifolio/
+├── app/
+│   ├── about/
+│   │   └── page.tsx        # About page
+│   ├── contact/
+│   │   └── page.tsx        # Contact page
+│   ├── project/
+│   │   └── page.tsx        # Projects page
+│   ├── skills/
+│   │   └── page.tsx        # Skills page
+│   ├── globals.css         # Main CSS file (Tailwind imported here)
+│   ├── layout.tsx          # Root layout with navigation
+│   └── page.tsx            # Home page
 ├── public/
 │   ├── images/
-│   │   ├── about-pic.jpg
+│   │   ├── background pic.jpg
 │   │   ├── jaja.jpg
 │   │   ├── movieExplorer.png
 │   │   ├── e-commerce.png
@@ -37,19 +52,11 @@ next-portfolio/
 │   │   ├── todolist(drag and drop).png
 │   │   └── taskManagement.png
 │   └── Uwase_Djaria_CV.pdf
-├── src/
-│   ├── pages/
-│   │   ├── index.jsx       # Home page
-│   │   ├── about.jsx       # About page
-│   │   ├── projects.jsx    # Projects page
-│   │   └── contact.jsx     # Contact page
-│   ├── components/
-│   │   └── SkillButton.jsx # Skills button used in About page
-│   └── styles/
-│       └── globals.css     # Main CSS file (Tailwind imported here)
 ├── .gitignore
 ├── package.json
-└── next.config.js
+├── next.config.ts
+├── tsconfig.json
+└── postcss.config.mjs
 
 # 💻 Projects
 

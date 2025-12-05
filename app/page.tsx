@@ -39,11 +39,8 @@ export default function Page() {
             </a>
           </div>
           <div className="flex justify-center">
-  <div className="flex flex-wrap gap-3 sm:gap-4 justify-center text-white font-bold italic p-2">
-    <p className="text-2xl relaxed-leading md:text-gray-400 text-white pl-2 italic">I create beautiful, user-friendly websites that combine design and code. Feel free to reach out and connect!</p>
-    <Link href="/project" className="border-2 border-purple-700 px-4 py-2 rounded-full text-white">Explore for more →</Link>
-         </div>
-         </div>
+            <p className="text-2xl text-center text-white italic">I create beautiful, user-friendly websites that combine design and code. Feel free to reach out and connect!</p>
+          </div>
         </div>
       </div>
     </div>

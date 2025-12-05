@@ -7,7 +7,9 @@ function Skills() {
         
 {/* Skills Section */}
 <div className="py-10">
-  <h2 className="text-center text-3xl font-bold mb-6">
+  <h2 className="text-center text-3xl sm:text-4xl md:text-5xl font-bold mb-6
+             bg-gradient-to-r from-pink-700 via-purple-600 to-purple-900
+             bg-clip-text text-transparent shadow-lg">
     Skills
   </h2>
 <p className="text-center max-w-2xl mx-auto text-sm sm:text-lg md:text-xl 
