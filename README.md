@@ -93,4 +93,8 @@ Frontend Developer & UI/UX Designer
 
 LinkedIn
 
-GitHub
+GitHub<img width="1901" height="922" alt="Home" src="https://github.com/user-attachments/assets/e07fe997-d90b-414c-a987-ef017b988d4e" />
+<img width="1909" height="920" alt="About" src="https://github.com/user-attachments/assets/5519466e-4a3d-44d4-857e-f53b8af90e6e" />
+<img width="1901" height="914" alt="project" src="https://github.com/user-attachments/assets/a45a0ce8-a5fd-47e1-989a-6045f9e445bc" />
+<img width="1913" height="915" alt="skills" src="https://github.com/user-attachments/assets/03093ae2-8aad-48bb-8d74-43fafac93d34" />
+<img width="1896" height="883" alt="contact" src="https://github.com/user-attachments/assets/eee4fefd-76a8-483b-8af4-c9becb3a0759" />
