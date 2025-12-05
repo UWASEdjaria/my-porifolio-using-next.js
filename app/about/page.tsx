@@ -5,9 +5,7 @@ export default function AboutPage() {
   return (
     <div
       className="font-sans p-5 bg-cover bg-top min-h-screen"
-      style={{ backgroundImage: "url('/images/djaria.jpg')"
-        
-       }}
+      style={{ backgroundImage: "url('/images/jaja.jpg')" }}
     >
       {/* Overlay */}
       <div className="bg-black/30 min-h-screen flex justify-center">
@@ -15,7 +13,7 @@ export default function AboutPage() {
 
             {/* Title */}
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-5 
-                         bg-linear-to-r from-pink-700 via-purple-600 to-purple-900 
+                         bg-gradient-to-r from-pink-700 via-purple-600 to-purple-900 
                          bg-clip-text text-transparent shadow-lg">
             About Me
           </h1>
@@ -29,9 +27,7 @@ export default function AboutPage() {
           </p>
 
           {/* Skills */}
-          <h2 className="text-2xl font-bold mt-8 mb-4 text-purple">
-            view my skills →  
-          </h2>
+          
           <div className="flex flex-wrap justify-center gap-3">
             <Link href="/skills" className="bg-purple-700 px-4 py-2 rounded text-white">view my skills →</Link>
   

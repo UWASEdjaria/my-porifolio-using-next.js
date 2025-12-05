@@ -43,7 +43,7 @@ export default function ProjectsPage() {
   return (
     <div className="bg-black min-h-screen font-sans p-5">
       <h1 className="text-4xl md:text-5xl font-bold text-center mb-10 
-                     bg-linear-to-r from-pink-400 via-purple-600 to-purple-900
+                     bg-gradient-to-r from-pink-400 via-purple-600 to-purple-900
                      bg-clip-text text-transparent shadow-lg">
         My Projects
       </h1>
@@ -66,7 +66,7 @@ export default function ProjectsPage() {
               />
             </div>
             <h2 className="text-xl font-bold  mb-2 text-center
-                           bg-linear-to-r from-pink-700 via-purple-600 to-purple-900
+                           bg-gradient-to-r from-pink-700 via-purple-600 to-purple-900
                            bg-clip-text text-transparent shadow-lg">
               {project.title}
             </h2>

@@ -26,14 +26,14 @@ export default function Page() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
             <a 
               href="mailto:uwasedjaria41@gmail.com" 
-              className="bg-linear-to-r from-pink-800 via-purple-900 to-blue-900 text-white px-6 py-3 rounded-full shadow hover:bg-purple-700 transition text-center"
+              className="bg-gradient-to-r from-pink-800 via-purple-900 to-blue-900 text-white px-6 py-3 rounded-full shadow hover:bg-purple-700 transition text-center"
             >
               Hire me
             </a>
             <a 
-              href="/DJARIA UWASE frontend cv.pdf" 
+              href="/Uwase_Djaria_CV.pdf" 
               download
-              className="bg-linear-to-r from-pink-800 via-purple-900 to-blue-900 text-white px-6 py-3 rounded-full shadow hover:bg-purple-700 transition text-center"
+              className="bg-gradient-to-r from-pink-800 via-purple-900 to-blue-900 text-white px-6 py-3 rounded-full shadow hover:bg-purple-700 transition text-center"
             >
               Download CV
             </a>
