@@ -26,32 +26,34 @@ export default function Page() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
             <a 
               href="mailto:uwasedjaria41@gmail.com" 
-              className="bg-gradient-to-r from-pink-800 via-purple-900 to-blue-900 text-white px-6 py-3 rounded-full shadow hover:bg-purple-700 transition text-center"
+              className="bg-gradient-to-r from-pink-800 via-purple-900 to-blue-900 text-white px-6 py-3 rounded-full shadow hover:bg-purple-700 transition-all duration-300 transform hover:scale-105 text-center"
             >
               Hire me
             </a>
             <a 
-              href="/Uwase_Djaria_CV.pdf" 
+              href="/DJARIA UWASE frontend resume.pdf" 
               download
-              className="bg-gradient-to-r from-pink-800 via-purple-900 to-blue-900 text-white px-6 py-3 rounded-full shadow hover:bg-purple-700 transition text-center"
+              className="bg-gradient-to-r from-pink-800 via-purple-900 to-blue-900 text-white px-6 py-3 rounded-full shadow hover:bg-purple-700 transition-all duration-300 transform hover:scale-105 text-center
+                         "
+              
             >
               Download CV
             </a>
           </div>
-          <div className="flex flex-col items-center gap-6">
-            <p className="text-xl text-center text-gray-400 italic max-w-2xl leading-relaxed">
+          <div className="flex flex-col items-center gap-4 pl-1">
+            <p className="text-xl text-center  text-gray-400  bg-black/40 font-sans max-w-2xl leading-relaxed">
               I create beautiful, user-friendly websites that combine design and code. 
               Passionate about turning ideas into digital experiences that users love.
             </p>
             
-            <p className="text-xl text-center text-gray-400 max-w-2xl leading-relaxed">
+            <p className="text-xl text-center text-gray-400  bg-black/40 max-w-2xl leading-relaxed">
               From responsive layouts to interactive features, I build modern web applications 
               using React, Next.js, and Tailwind CSS. Always eager to learn and grow in this 
               exciting field of web development.
             </p>
             
-            <p className="text-xl text-center text-gray-400 max-w-2xl leading-relaxed">
-              Let's collaborate and bring your vision to life. Feel free to reach out and connect!
+            <p className="text-xl text-center text-gray-400  bg-black/40 max-w-2xl leading-relaxed">
+              Let&apos;s collaborate and bring your vision to life. Feel free to reach out and connect!
             </p>
           </div>
         </div>

@@ -30,7 +30,7 @@ export default function AboutPage() {
           {/* Skills */}
           
           <div className="flex flex-wrap justify-start gap-3">
-            <Link href="/skills" className="bg-purple-700 px-4 py-2 rounded text-white">view my skills →</Link>
+            <Link href="/skills" className="bg-purple-700 px-4 py-2 rounded text-white transition-all duration-300 transform hover:scale-105">view my skills →</Link>
   
           </div>
 

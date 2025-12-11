@@ -22,7 +22,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           </h1>
 
           {/* Desktop Menu */}
-          <nav className="hidden md:flex gap-6 text-lg font-semibold">
+          <nav className="hidden md:flex gap-6 text-lg font-semibold sm:text-white  hover:text-purple-400">
             <Link href="/" className="hover:text-purple-400">Home</Link>
             <Link href="/about" className="hover:text-purple-400">About</Link>
             <Link href="/project" className="hover:text-purple-400">Project</Link>
