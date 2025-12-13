@@ -22,11 +22,11 @@ export default function ContactPage() {
         </p>
         
         <div className="text-center mb-6">
-          <h2 className="text-2xl font-bold mb-4 text-white">Let's Work Together</h2>
+          <h2 className="text-2xl font-bold mb-4 text-white">Let&#39;s Work Together</h2>
           <p className="text-gray-400 max-w-xl mx-auto">
-            I'm always excited to collaborate on new projects and bring creative ideas to life. 
+            I&#39;m always excited to collaborate on new projects and bring creative ideas to life. 
             Whether you need a website, want to discuss a project, or just want to connect, 
-            I'd love to hear from you!
+            I&#39;d love to hear from you!
           </p>
         </div>
         
