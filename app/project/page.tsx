@@ -37,6 +37,25 @@ const projectsData = [
     description: "A task management board for organizing projects and tasks efficiently.",
     link: "https://github.com/UWASEdjaria/TASK-MANAGEMENT-BOARD",
   },
+
+  {
+    title: "Simple Hospital Website",
+    image: "/images/hospital.jpg",
+    description: "A clean and responsive hospital website with modern design and functionality.",
+    link: "https://github.com/UWASEdjaria/Simple-Hospital-website",
+  },
+  {
+    title: "Multi-language Fetch Demo",
+    image: "https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=400&h=300&fit=crop",
+    description: "A demonstration of multi-language support with API data fetching capabilities.",
+    link: "https://github.com/UWASEdjaria/Multi-language-Fetch-Demo",
+  },
+  {
+    title: "Login Authentication",
+    image: "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=400&h=300&fit=crop",
+    description: "A secure login authentication system with modern security practices.",
+    link: "https://github.com/UWASEdjaria/Login-Authentication",
+  },
 ];
 
 export default function ProjectsPage() {
