@@ -1,9 +1,13 @@
+'use client';
+
+import Image from "next/image";
+
 const projectsData = [
   {
     title: "School Bus Tracker",
     image: "/images/schoolBusTracker.png",
     description: "A full-stack tracking application providing real-time school bus location updates using GPS integration.",
-    link: "https://github.com/UWASEdjaria/school-bus-tracker",
+    link: "https://github.com/SheCanCODE-Capstone-Projects/School_bus_tracker_fe",
   },
   {
     title: "Movie Explorer",
@@ -60,3 +64,42 @@ const projectsData = [
     link: "https://github.com/UWASEdjaria/Login-Authentication",
   },
 ];
+
+export default function ProjectsPage() {
+  return (
+    <div className="bg-black min-h-screen font-sans p-5">
+      <h1 className="text-4xl md:text-5xl font-bold text-center mb-10 
+                     bg-gradient-to-r from-pink-400 via-purple-600 to-purple-900
+                     bg-clip-text text-transparent shadow-lg">
+        My Projects
+      </h1>
+
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4 max-w-7xl mx-auto">
+        {projectsData.map((project, index) => (
+          <a
+            key={index}
+            href={project.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-black border border-purple-500 rounded-xl shadow-md p-5 flex flex-col transition-transform duration-300 hover:scale-105"
+          >
+            <div className="w-full h-48 sm:h-40 mb-4 relative">
+              <Image
+                src={project.image}
+                alt={project.title}
+                fill
+                className="object-cover rounded-lg"
+              />
+            </div>
+            <h2 className="text-xl font-bold mb-2 text-center
+                           bg-gradient-to-r from-pink-700 via-purple-600 to-purple-900
+                           bg-clip-text text-transparent shadow-lg">
+              {project.title}
+            </h2>
+            <p className="text-gray-600 text-center">{project.description}</p>
+          </a>
+        ))}
+      </div>
+    </div>
+  );
+}
