@@ -17,15 +17,15 @@ export default function ContactPage() {
           Glad You’re Here!
         </h1>
         <p className="text-gray-400 italic text-lg md:text-xl mb-6">
-          I build modern, responsive websites and love creating clean user experiences. 
-          Feel free to contact me through any of the platforms below!
+            I am a Full Stack Developer specializing in building robust, responsive web applications 
+            from frontend to backend. Feel free to contact me through any of the platforms below!
         </p>
         
         <div className="text-center mb-6">
           <h2 className="text-2xl font-bold mb-4 text-white">Let&#39;s Work Together</h2>
           <p className="text-gray-400 max-w-xl mx-auto">
             I&#39;m always excited to collaborate on new projects and bring creative ideas to life. 
-            Whether you need a website, want to discuss a project, or just want to connect, 
+            Whether you need a website, want to discuss a full-stack project, or just want to connect, 
             I&#39;d love to hear from you!
           </p>
         </div>

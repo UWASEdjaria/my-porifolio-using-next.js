@@ -20,12 +20,11 @@ export default function AboutPage() {
           </h1>
           {/* Description */}
           <p className="text-gray-400 text-lg md:text-xl leading-relaxed text-left">
-            I am Djaria, a frontend developer creating responsive and easy-to-use websites. 
-            I work with HTML, CSS, Tailwind, JavaScript, React, and Next.js. 
-            I also have basic backend knowledge using Firebase and PostgreSQL and can 
-            handle simple authentication and databases. I enjoy learning new skills and 
-            improving step by step.
-          </p>
+              I am Djaria, a Full Stack Developer passionate about building end-to-end web applications. 
+              My expertise spans the entire stack, from creating responsive frontend interfaces with React and Next.js 
+              to architecting robust backend systems using Node.js, TSOA, Prisma, and PostgreSQL. 
+              I enjoy solving complex problems and delivering high-quality, user-friendly digital solutions.
+            </p>
 
           {/* Skills */}
           
@@ -36,12 +35,12 @@ export default function AboutPage() {
 
           {/* Experience */}
           <div className="w-full text-left mt-10 text-gray-400">
-            <h2 className="text-2xl font-bold mb-2">Experience & Learning</h2>
+            <h2 className="text-2xl font-bold mb-2">Experience & Expertise</h2>
             <ul className="list-disc list-inside space-y-2">
-              <li>Learning frontend development at SheCan Code Igire Rwanda</li>
-              <li>Building small projects with React, Next.js, and Tailwind CSS</li>
-              <li>Practicing backend basics with Firebase and PostgreSQL</li>
-              <li>Focusing on responsive design and UI/UX principles</li>
+                <li>Full Stack development with React, Next.js, and TypeScript</li>
+                <li>Backend development using Express.js, TSOA, and Prisma ORM</li>
+                <li>Database management with PostgreSQL</li>
+                <li>Collaborating on team-based real-world projects</li>
             </ul>
           </div>
 
@@ -49,9 +48,9 @@ export default function AboutPage() {
           <div className="w-full text-left mt-8 text-gray-400">
             <h2 className="text-3xl font-bold mb-4">My Goals</h2>
             <p className="text-lg leading-relaxed italic">
-              I aim to become a professional frontend developer, work on real projects, 
-              and create websites that are simple, functional, and user-friendly. 
-              I enjoy learning new technologies and improving my skills step by step.
+                My goal is to leverage my full-stack skillset to build scalable and impactful digital infrastructure. 
+                I am dedicated to continuous improvement and am eager to contribute to innovative projects 
+                that solve real-world challenges.
             </p>
           </div>
 

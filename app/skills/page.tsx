@@ -1,42 +1,37 @@
-
 import React from 'react'
 
 const skillsData = [
   {
-    title: "HTML",
-    description: "I create semantic and well-structured web pages using HTML5. I understand proper markup and accessibility standards for modern web development."
-  },
-  {
-    title: "CSS", 
-    description: "I style websites with modern CSS techniques including flexbox and grid layouts. I focus on creating responsive designs that work across all devices."
+    title: "HTML & CSS",
+    description: "I build semantic, accessible web structures and create responsive layouts using modern CSS, Flexbox, and Grid."
   },
   {
     title: "Tailwind CSS",
-    description: "I use Tailwind CSS for rapid UI development with utility-first classes. This helps me build consistent and maintainable user interfaces quickly."
+    description: "I use Tailwind CSS for rapid, utility-first UI development, ensuring consistent and highly maintainable design systems."
   },
   {
-    title: "JavaScript",
-    description: "I write JavaScript to add interactivity and dynamic functionality to web applications. I work with DOM manipulation, events, and modern ES6+ features."
+    title: "JavaScript & TypeScript",
+    description: "I build dynamic, type-safe web applications using modern ES6+ syntax and TypeScript for robust, scalable code."
   },
   {
-    title: "React",
-    description: "I build user interfaces using React components and hooks. I create reusable components and manage application state effectively."
+    title: "React & Next.js",
+    description: "I develop high-performance user interfaces using React and Next.js, focusing on reusable components, SSR, and SEO optimization."
   },
   {
-    title: "Next.js",
-    description: "I develop React applications using Next.js for better performance and SEO. I work with routing, server-side rendering, and static site generation."
+    title: "TSOA & Express.js",
+    description: "I architect type-safe RESTful APIs using Express.js and TSOA to generate clean, maintainable backend documentation and routes."
   },
   {
-    title: "Firebase",
-    description: "I implement user authentication and real-time features using Firebase. I can set up login systems and manage user data securely."
+    title: "Prisma & PostgreSQL",
+    description: "I manage complex data architectures using Prisma ORM to interact efficiently and securely with PostgreSQL databases."
   },
   {
-    title: "PostgreSQL",
-    description: "I have basic knowledge of PostgreSQL for simple database operations. I'm learning how databases work and store information."
+    title: "UI/UX Design",
+    description: "I leverage Figma to prototype user-centric interfaces, ensuring a seamless bridge between design and functional code."
   },
   {
-    title: "Figma",
-    description: "I use Figma for basic UI design and creating simple layouts. I'm learning to design user interfaces and improve my design skills."
+    title: "Tools & Collaboration",
+    description: "I am proficient in Git/GitHub for version control and Postman for API testing and development."
   }
 ];
 

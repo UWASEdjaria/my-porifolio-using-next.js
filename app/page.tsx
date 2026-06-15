@@ -1,7 +1,6 @@
 import Link from "next/link";
 import React from "react";
 
-
 export default function Page() {
   return (
     <div
@@ -10,8 +9,6 @@ export default function Page() {
     >
       {/* Header */}
       <header className="flex flex-row pt-3 py-1 px-4 sm:p-2 md:p-4 lg:p-6 transition-all duration-300 hover:scale-105 justify-between w-full">
-        
-        
       </header>
 
       {/* Main Content */}
@@ -21,7 +18,7 @@ export default function Page() {
             Hello,
           </h2>
           <p className="text-lg text-white sm:text-xl md:text-2xl text-center mb-6">
-            Frontend Developer | UI/UX Designer
+            Full Stack Developer
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
             <a 
@@ -33,26 +30,24 @@ export default function Page() {
             <a 
               href="/UWASE Djaria cv-Resume.pdf" 
               download
-              className="bg-gradient-to-r from-pink-800 via-purple-900 to-blue-900 text-white px-6 py-3 rounded-full shadow hover:bg-purple-700 transition-all duration-300 transform hover:scale-105 text-center
-                         "
-              
+              className="bg-gradient-to-r from-pink-800 via-purple-900 to-blue-900 text-white px-6 py-3 rounded-full shadow hover:bg-purple-700 transition-all duration-300 transform hover:scale-105 text-center"
             >
               Download CV
             </a>
           </div>
           <div className="flex flex-col items-center gap-4 pl-1">
-            <p className="text-xl text-center  text-gray-400  bg-black/40 font-sans max-w-2xl leading-relaxed">
+            <p className="text-xl text-center text-gray-400 bg-black/40 font-sans max-w-2xl leading-relaxed">
               I create beautiful, user-friendly websites that combine design and code. 
-              Passionate about turning ideas into digital experiences that users love.
+              Passionate about turning ideas into end-to-end digital experiences that users love.
             </p>
             
-            <p className="text-xl text-center text-gray-400  bg-black/40 max-w-2xl leading-relaxed">
-              From responsive layouts to interactive features, I build modern web applications 
-              using React, Next.js, and Tailwind CSS. Always eager to learn and grow in this 
-              exciting field of web development.
+            <p className="text-xl text-center text-gray-400 bg-black/40 max-w-2xl leading-relaxed">
+              From responsive frontend interfaces to robust backend architectures, I build modern 
+              full-stack applications using React, Next.js, TSOA, and Prisma. Always eager to learn 
+              and grow in this exciting field of software development.
             </p>
             
-            <p className="text-xl text-center text-gray-400  bg-black/40 max-w-2xl leading-relaxed">
+            <p className="text-xl text-center text-gray-400 bg-black/40 max-w-2xl leading-relaxed">
               Let&apos;s collaborate and bring your vision to life. Feel free to reach out and connect!
             </p>
           </div>
