@@ -1,31 +1,25 @@
-# Uwase Djaria - Frontend Developer & UI/UX Designer
+# Uwase Djaria - Full-Stack Software Developer
 
-Welcome to my Next.js portfolio! I’m Uwase Djaria, a frontend developer and UI/UX designer passionate about creating responsive, modern, and user-friendly web experiences.
+Welcome to my portfolio! I’m Uwase Djaria, a software developer specializing in building full-stack web applications. Recently finishing my internship at ETITE, I have expanded my focus from frontend design to building robust, data-driven backend systems.
 
 # 🌟 About Me
+I enjoy combining clean, responsive frontend designs with organized, efficient backend logic. My goal is to deliver creative and meaningful digital experiences.
 
-This corresponds to the about page in the project.
-
-I enjoy combining clean code with elegant design. My goal is to deliver simple, creative, and meaningful digital experiences.
-
-**Frontend Skills:** HTML, CSS, Tailwind CSS, JavaScript, React, Next.js 14, TypeScript
-
-**Backend Skills:** Firebase, PostgreSQL (Basic)
-
-**Design Skills:** UI/UX Design, Responsive Design, Modern Web Layouts
-
-**Tools & Technologies:** VS Code, GitHub, Figma, Chrome DevTools, PostCSS
+Frontend Skills: HTML, CSS, Tailwind CSS, JavaScript, TypeScript, React, Next.js 14.
+Backend Skills: Node.js, Express.js, TSOA, Prisma ORM, PostgreSQL.
+Design & Tools: UI/UX Design (Figma), Git/GitHub, Postman, VS Code.
 
 ## ✨ Features:
 
-- **Modern Next.js 14 App Router** with TypeScript
-- **Responsive Design** - Mobile-first approach with Tailwind CSS
-- **Interactive Navigation** - Hamburger menu for mobile devices
-- **Gradient Text Effects** - Beautiful gradient titles across pages
-- **Project Showcase** - Live demos and GitHub repositories
-- **Contact Integration** - Social media links and contact form
-- **Skills Display** - Interactive skill buttons with hover effects
-- **Professional Layout** - Clean, modern design with consistent theming
+Full-Stack Architecture: Next.js 14 App Router integrated with a Node/Express backend.
+
+Type-Safe APIs: Organized backend structures using TSOA.
+
+Data Management: Reliable database interactions using Prisma ORM and PostgreSQL.
+
+Responsive Design: Mobile-first approach using Tailwind CSS.
+
+Interactive UI: Professional components, gradients, and hover effects.
 
 # 📂 Folder Structure
 nextportifolio/
@@ -77,24 +71,26 @@ Task Management Board	Organize projects and tasks efficiently with this task man
 
 # 📧 Contact Me
 
-I’m always open to freelance opportunities, collaborations, or full-time roles.
+I am currently seeking junior developer or internship opportunities where I can apply my full-stack skills.
 
 Email: uwasedjaria41@gmail.com
 
-Download CV: Uwase Djaria CV
+LinkedIn: https://www.linkedin.com/in/uwase-djaria-109a6727b/
 
-Feel free to reach out — I’d love to connect!
+GitHub: https://github.com/UWASEdjaria
+
+CV: Download My Resume
 
 # 🖋 Author
 
-Uwase Djaria
+Uwase Djaria | Full-Stack Software Developer
 
-Frontend Developer & UI/UX Designer
+LinkedInI am currently seeking junior developer or internship opportunities where I can apply my full-stack skills.
 
-LinkedIn
+Email: uwasedjaria41@gmail.com
 
-GitHub<img width="1901" height="922" alt="Home" src="https://github.com/user-attachments/assets/e07fe997-d90b-414c-a987-ef017b988d4e" />
-<img width="1909" height="920" alt="About" src="https://github.com/user-attachments/assets/5519466e-4a3d-44d4-857e-f53b8af90e6e" />
-<img width="1901" height="914" alt="project" src="https://github.com/user-attachments/assets/a45a0ce8-a5fd-47e1-989a-6045f9e445bc" />
-<img width="1913" height="915" alt="skills" src="https://github.com/user-attachments/assets/03093ae2-8aad-48bb-8d74-43fafac93d34" />
-<img width="1896" height="883" alt="contact" src="https://github.com/user-attachments/assets/eee4fefd-76a8-483b-8af4-c9becb3a0759" />
+LinkedIn: Uwase Djaria
+
+GitHub: @UWASEdjaria
+
+CV: Download My Resume
